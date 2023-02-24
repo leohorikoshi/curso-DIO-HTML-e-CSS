@@ -1,17 +1,24 @@
 body {
-background: darkgrey;
+background:darkgrey;
 }
 
-#title, subtitle, post_title {color: blueviolet;}
+#title, subtitle, post_title {color:blueviolet;}
 
 post_title{
-    font-size: 16px;
-    font-style: italic;
+    font-size:16px;
+    font-style:italic;
+    margin:0%;
+    margin-bottom:15px;
 }
 
 post{
-    background: chartreuse
-    padding: 10px;
-    border: 3px solid black;
-    margin: 10px;
+    background:chartreuse
+    padding:15px 10px 5px 0;
+    border:3px solid black;
+    margin:10px;
+}
+
+post_content{
+    margin:0%;
+    margin-bottom:15px;
 }
